@@ -6,11 +6,14 @@ int val;
 int val2;
 byte state;
 // test values only
-float temp_low = 23.0;
-float temp_high = 26.0;
+//float temp_low = 23.0;
+//float temp_high = 26.0;
 
+float prev_temp = 0.0;
+float prev_humid = 0.0;
 //float humid_low = 200.0;
 //float humid_high = 600.0;
+int t = 0;
 
 void setup()
 {
@@ -37,6 +40,9 @@ void loop()
 //  Serial.print("*C");
 //  Serial.println();
 
+ t=t+1;
+ Serial.print(t);
+ Serial.print(" ");
  Serial.print(temp_cel);
  Serial.print(" "); // a space ' ' or  tab '\t' character is printed between the two values.
  Serial.println(val2);
@@ -56,7 +62,7 @@ void loop()
 //        Serial.println("The mask is in use");
 //        //start timer now
        
-  
+ 
   delay(1000);
  
 }
