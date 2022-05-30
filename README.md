@@ -5,6 +5,7 @@ This document outlines the steps to be taken to recreate this project, including
 ****
 
 **Artefact Setup**
+
 Requirements: 
 - N95 Disposable Face Mask
 - Arduino UNO
