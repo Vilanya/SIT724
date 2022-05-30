@@ -24,4 +24,4 @@ In order to test the device, the experiments can be repeated in different enviro
 
 **Other**
 
-Data sets from the experiments performed can be found in the _Datasets_ folder. These can be used to get an understanding on some outputs that this experiment can give.
+Data sets from previous experiments performed can be found in the _Datasets_ folder, along with an Excel workbook containing visualisations. These can be used to get an understanding on some outputs that this experiment can give.
