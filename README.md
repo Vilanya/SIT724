@@ -1,2 +1,1 @@
-# SIT723
-Repo for Honours research work
+# SIT723 - Project Handover
